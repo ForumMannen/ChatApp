@@ -1,5 +1,11 @@
+import RoomSideBar from "../components/RoomSideBar";
+
 function ChatPage() {
-  return <div>Chatpage</div>;
+  return (
+    <div>
+      <RoomSideBar />
+    </div>
+  );
 }
 
 export default ChatPage;
